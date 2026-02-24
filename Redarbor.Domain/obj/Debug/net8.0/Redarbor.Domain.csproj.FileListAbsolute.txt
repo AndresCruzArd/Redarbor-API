@@ -1,0 +1,11 @@
+C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Domain\bin\Debug\net8.0\Redarbor.Domain.deps.json
+C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Domain\bin\Debug\net8.0\Redarbor.Domain.dll
+C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Domain\bin\Debug\net8.0\Redarbor.Domain.pdb
+C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Domain\obj\Debug\net8.0\Redarbor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Domain\obj\Debug\net8.0\Redarbor.Domain.AssemblyInfoInputs.cache
+C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Domain\obj\Debug\net8.0\Redarbor.Domain.AssemblyInfo.cs
+C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Domain\obj\Debug\net8.0\Redarbor.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Domain\obj\Debug\net8.0\Redarbor.Domain.dll
+C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Domain\obj\Debug\net8.0\refint\Redarbor.Domain.dll
+C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Domain\obj\Debug\net8.0\Redarbor.Domain.pdb
+C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Domain\obj\Debug\net8.0\ref\Redarbor.Domain.dll
