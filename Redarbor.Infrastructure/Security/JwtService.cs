@@ -20,7 +20,7 @@ namespace Redarbor.Infrastructure.Security
             _config = config;
         }
 
-        public string GenerateToken(Employee employee)
+        public string GenerateToken(Employee employee) // generacion de token
         {
             var claims = new[]
             {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Redarbor.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e501a6bfa01b5536cb5f24f1f893b370717e921d")]
 [assembly: System.Reflection.AssemblyProductAttribute("Redarbor.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Redarbor.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

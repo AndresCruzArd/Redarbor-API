@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HlHIvSG6XQw=",
+  "dgSpecHash": "kCkteF+W/TE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Tests\\Redarbor.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Tests\\Redarbor.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Erika Duran\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\Erika Duran\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",

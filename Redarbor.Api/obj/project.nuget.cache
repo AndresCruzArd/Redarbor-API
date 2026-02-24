@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Lits4CXXcyY=",
+  "dgSpecHash": "Xsbplick9FM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Api\\Redarbor.Api.csproj",
+  "projectFilePath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Api\\Redarbor.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Erika Duran\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Erika Duran\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

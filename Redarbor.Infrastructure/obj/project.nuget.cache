@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RQNQCC8KmFk=",
+  "dgSpecHash": "8TQXYEZaN3c=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Erika Duran\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Erika Duran\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
@@ -88,9 +88,9 @@
       "code": "NU1903",
       "level": "Warning",
       "message": "El paquete \"Microsoft.Data.SqlClient\" 5.1.1 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-98g6-xh36-x2p7",
-      "projectPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj",
+      "filePath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj",
       "libraryId": "Microsoft.Data.SqlClient",
       "targetGraphs": [
         "net8.0"

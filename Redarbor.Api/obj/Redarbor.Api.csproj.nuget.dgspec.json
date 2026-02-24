@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Api\\Redarbor.Api.csproj": {}
+    "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Api\\Redarbor.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Api\\Redarbor.Api.csproj": {
+    "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Api\\Redarbor.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Api\\Redarbor.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Api\\Redarbor.Api.csproj",
         "projectName": "Redarbor.Api",
-        "projectPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Api\\Redarbor.Api.csproj",
+        "projectPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Api\\Redarbor.Api.csproj",
         "packagesPath": "C:\\Users\\Erika Duran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Api\\obj\\",
+        "outputPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Application\\Redarbor.Application.csproj": {
-                "projectPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Application\\Redarbor.Application.csproj"
+              "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Application\\Redarbor.Application.csproj": {
+                "projectPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Application\\Redarbor.Application.csproj"
               },
-              "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj"
+              "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj"
               }
             }
           }
@@ -103,14 +103,14 @@
         }
       }
     },
-    "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Application\\Redarbor.Application.csproj": {
+    "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Application\\Redarbor.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Application\\Redarbor.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Application\\Redarbor.Application.csproj",
         "projectName": "Redarbor.Application",
-        "projectPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Application\\Redarbor.Application.csproj",
+        "projectPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Application\\Redarbor.Application.csproj",
         "packagesPath": "C:\\Users\\Erika Duran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Application\\obj\\",
+        "outputPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -131,8 +131,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Domain\\Redarbor.Domain.csproj": {
-                "projectPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Domain\\Redarbor.Domain.csproj"
+              "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Domain\\Redarbor.Domain.csproj": {
+                "projectPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Domain\\Redarbor.Domain.csproj"
               }
             }
           }
@@ -182,14 +182,14 @@
         }
       }
     },
-    "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Domain\\Redarbor.Domain.csproj": {
+    "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Domain\\Redarbor.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Domain\\Redarbor.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Domain\\Redarbor.Domain.csproj",
         "projectName": "Redarbor.Domain",
-        "projectPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Domain\\Redarbor.Domain.csproj",
+        "projectPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Domain\\Redarbor.Domain.csproj",
         "packagesPath": "C:\\Users\\Erika Duran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -247,14 +247,14 @@
         }
       }
     },
-    "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj": {
+    "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj",
         "projectName": "Redarbor.Infrastructure",
-        "projectPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Infrastructure\\Redarbor.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Erika Duran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -275,11 +275,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Application\\Redarbor.Application.csproj": {
-                "projectPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Application\\Redarbor.Application.csproj"
+              "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Application\\Redarbor.Application.csproj": {
+                "projectPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Application\\Redarbor.Application.csproj"
               },
-              "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Domain\\Redarbor.Domain.csproj": {
-                "projectPath": "C:\\Users\\Erika Duran\\Documents\\Andres Cruz\\Redarbor\\PruebaRedarbor\\Redarbor.Domain\\Redarbor.Domain.csproj"
+              "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Domain\\Redarbor.Domain.csproj": {
+                "projectPath": "C:\\Users\\Erika Duran\\Documents\\Prueba.net\\Redarbor-API\\Redarbor.Domain\\Redarbor.Domain.csproj"
               }
             }
           }
