@@ -184,12 +184,12 @@ Infrastructure → Application
 
 | Método | Endpoint | Descripción | Autenticación |
 |--------|----------|------------|---------------|
-| GET | `/api/employees` | Obtener todos los empleados |
-| GET | `/api/employees/{id}` | Obtener empleado por ID |
-| POST | `/api/employees` | Crear empleado |
-| PUT | `/api/employees/{id}` | Actualizar empleado |
-| PUT | `/api/employees/{id}/change-password` | Cambiar contraseña |
-| DELETE | `/api/employees/{id}` | Eliminación lógica |
+| GET | `/api/employees` | Obtener todos los empleados | ✅ Sí |
+| GET | `/api/employees/{id}` | Obtener empleado por ID | ✅ Sí |
+| POST | `/api/employees` | Crear empleado | ✅ Sí |
+| PUT | `/api/employees/{id}` | Actualizar empleado | ✅ Sí |
+| PUT | `/api/employees/{id}/change-password` | Cambiar contraseña | ✅ Sí |
+| DELETE | `/api/employees/{id}` | Eliminación lógica | ✅ Sí |
 
 ⚠ Todos los endpoints de empleados requieren autenticación JWT.
 
