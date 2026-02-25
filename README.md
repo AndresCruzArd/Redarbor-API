@@ -221,13 +221,13 @@ dotnet test
 
 ---
 
-🐳 Docker
+## 🐳 Docker
 
 La aplicación puede ejecutarse completamente mediante Docker.
 
-1️⃣ Construir imagen
+### 1️⃣ Construir imagen
 docker build -t redarbor-api .
-2️⃣ Ejecutar contenedor
+### 2️⃣ Ejecutar contenedor
 docker run -p 5000:8080 redarbor-api
 
 La API quedará disponible en:
@@ -240,7 +240,7 @@ http://localhost:5000/swagger
 
 ---
 
-💾 Persistencia
+## 💾 Persistencia
 
 - Escritura → Entity Framework Core
 - Lectura → Dapper
@@ -250,11 +250,11 @@ http://localhost:5000/swagger
 
 ---
 
-⚙ Configuración sin Docker
+# ⚙ Configuración sin Docker
 
-1️⃣ Clonar repositorio
+### 1️⃣ Clonar repositorio
 git clone https://github.com/AndresCruzArd/Redarbor-API.git
-2️⃣ Configurar cadena de conexión
+### 2️⃣ Configurar cadena de conexión
 
 Editar appsettings.json:
 
@@ -262,35 +262,35 @@ Editar appsettings.json:
   "DefaultConnection": "Server=.;Database=RedarborDb;Trusted_Connection=True;TrustServerCertificate=True;"
 }
 
-3️⃣ Ejecutar migraciones
+### 3️⃣ Ejecutar migraciones
 dotnet ef database update
-4️⃣ Ejecutar la API
+### 4️⃣ Ejecutar la API
 dotnet run
 
 ---
 
-📊 Estado Actual del Proyecto
+## 📊 Estado Actual del Proyecto
 
-✔ Arquitectura limpia correctamente aplicada
-✔ Separación clara de capas
-✔ Principios SOLID implementados
-✔ Enfoque DDD táctico
-✔ Código limpio y mantenible
-✔ Persistencia híbrida EF + Dapper
-✔ Tests unitarios implementados
-✔ Docker funcional
-✔ Buen desacoplamiento
+- Arquitectura limpia correctamente aplicada
+- Separación clara de capas
+- Principios SOLID implementados
+- Enfoque DDD táctico
+- Código limpio y mantenible
+- Persistencia híbrida EF + Dapper
+- Tests unitarios implementados
+- Docker funcional
+- Buen desacoplamiento
 
 ---
 
-👤 Autor
+## 👤 Autor
 
 Andrés Cruz
 Prueba técnica desarrollada para Redarbor.
 
 ---
 
-🧠 Nota Final
+## 🧠 Nota Final
 
 Este proyecto demuestra:
 
