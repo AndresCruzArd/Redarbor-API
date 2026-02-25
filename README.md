@@ -72,13 +72,27 @@ La autenticación se implementa mediante **JWT (JSON Web Tokens)**.
 
 ---
 
+```markdown
 ## 📡 Endpoints
 
 ### 🔑 Autenticación
 
-| Método | Endpoint | Descripción |
-|--------|----------|------------|
-| POST | `/api/auth/login` | Autenticación y generación de token |
+| Método | Endpoint | Descripción | Autenticación |
+|--------|----------|------------|---------------|
+| POST | `/api/auth/login` | Autenticación y generación de token JWT | ❌ No |
+
+---
+
+### 👤 Empleados
+
+| Método | Endpoint | Descripción | Autenticación |
+|--------|----------|------------|---------------|
+| GET | `/api/employees` | Obtener todos los empleados | ✅ Sí |
+| GET | `/api/employees/{id}` | Obtener empleado por ID | ✅ Sí |
+| POST | `/api/employees` | Crear empleado | ✅ Sí |
+| PUT | `/api/employees/{id}` | Actualizar empleado | ✅ Sí |
+| PUT | `/api/employees/{id}/change-password` | Cambiar contraseña | ✅ Sí |
+| DELETE | `/api/employees/{id}` | Eliminación lógica (Soft Delete) | ✅ Sí |
 
 ---
 
