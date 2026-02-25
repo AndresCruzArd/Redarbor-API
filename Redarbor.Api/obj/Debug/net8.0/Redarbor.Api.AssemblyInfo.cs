@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Redarbor.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e501a6bfa01b5536cb5f24f1f893b370717e921d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+779f05a8bc3ff22e135e9b9011a851b649e7f9f1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Redarbor.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Redarbor.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

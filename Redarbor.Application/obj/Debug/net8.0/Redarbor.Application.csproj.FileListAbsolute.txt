@@ -13,3 +13,19 @@ C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Appl
 C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Application\obj\Debug\net8.0\refint\Redarbor.Application.dll
 C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Application\obj\Debug\net8.0\Redarbor.Application.pdb
 C:\Users\Erika Duran\Documents\Andres Cruz\Redarbor\PruebaRedarbor\Redarbor.Application\obj\Debug\net8.0\ref\Redarbor.Application.dll
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\bin\Debug\net8.0\Redarbor.Application.deps.json
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\bin\Debug\net8.0\Redarbor.Application.dll
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\bin\Debug\net8.0\Redarbor.Application.pdb
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\bin\Debug\net8.0\Redarbor.Domain.dll
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\bin\Debug\net8.0\Redarbor.Domain.pdb
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\obj\Debug\net8.0\Redarbor.Application.csproj.AssemblyReference.cache
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\obj\Debug\net8.0\Redarbor.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\obj\Debug\net8.0\Redarbor.Application.AssemblyInfoInputs.cache
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\obj\Debug\net8.0\Redarbor.Application.AssemblyInfo.cs
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\obj\Debug\net8.0\Redarbor.Application.csproj.CoreCompileInputs.cache
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\obj\Debug\net8.0\Redarbor.Application.sourcelink.json
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\obj\Debug\net8.0\Redarbor.017EFD71.Up2Date
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\obj\Debug\net8.0\Redarbor.Application.dll
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\obj\Debug\net8.0\refint\Redarbor.Application.dll
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\obj\Debug\net8.0\Redarbor.Application.pdb
+C:\Users\Erika Duran\Documents\Prueba.net\Redarbor-API\Redarbor.Application\obj\Debug\net8.0\ref\Redarbor.Application.dll
