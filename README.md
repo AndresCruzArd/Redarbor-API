@@ -2,104 +2,188 @@
 
 ## 📌 Descripción
 
-Este proyecto corresponde a una **API RESTful desarrollada en .NET 8** para la gestión de empleados, construida como parte de una prueba técnica.
+Este proyecto corresponde a una API RESTful desarrollada en **.NET 8** para la gestión de empleados, construida como parte de una prueba técnica.
 
-La solución está implementada siguiendo principios de **Clean Architecture**, separación de responsabilidades y buenas prácticas de desarrollo backend.
+La solución está implementada siguiendo principios de **Clean Architecture**, aplicando buenas prácticas de **OOP, DDD, SOLID y Clean Code**.
+
+---
+
+## 🎯 Funcionalidades
 
 La API permite:
 
-- Autenticación mediante JWT
-- Gestión completa de empleados (CRUD)
-- Cambio de contraseña
-- Eliminación lógica (Soft Delete)
-- Registro de último inicio de sesión (`LastLogin`)
-- Auditoría de cambios mediante triggers en base de datos
+- 🔐 Autenticación mediante JWT
+- 👤 Gestión completa de empleados (CRUD)
+- 🔄 Cambio de contraseña
+- 🗑 Eliminación lógica (Soft Delete)
+- 🕒 Registro de último inicio de sesión (LastLogin)
+- 📊 Auditoría de cambios mediante triggers en base de datos
+- 🧪 Pruebas unitarias con xUnit + Moq
+- 🐳 Despliegue mediante Docker
 
 ---
 
-## 🏗 Arquitectura
+# 🏗 Arquitectura
 
-Se implementó **Clean Architecture**, separando claramente las responsabilidades:
+Se implementó **Clean Architecture**, separando claramente las responsabilidades en proyectos independientes.
 
+## 📂 Estructura de la solución
 
-Redarbor.Api
-→ Controladores, configuración de JWT, Swagger y middleware.
+- **Redarbor.Api**  
+  Controladores, configuración de JWT, Swagger y middleware.
 
-Redarbor.Application
-→ Casos de uso, lógica de negocio y servicios.
+- **Redarbor.Application**  
+  Casos de uso, lógica de negocio, interfaces y contratos.
 
-Redarbor.Domain
-→ Entidades del dominio y reglas de negocio.
+- **Redarbor.Domain**  
+  Entidades del dominio y reglas de negocio.
 
-Redarbor.Infrastructure
-→ Persistencia con EF Core y Dapper.
+- **Redarbor.Infrastructure**  
+  Persistencia con Entity Framework Core y Dapper.
 
-Redarbor.Tests
-→ Proyecto preparado para pruebas unitarias.
-
-
-### Principios aplicados
-
-- Clean Architecture  
-- SOLID  
-- Inyección de Dependencias  
-- Separación lectura/escritura (CQRS básico)  
-- Encapsulamiento de lógica de dominio  
+- **Redarbor.Tests**  
+  Pruebas unitarias con xUnit y Moq.
 
 ---
 
-## 🛠 Tecnologías Utilizadas
-
-- .NET 8  
-- ASP.NET Core Web API  
-- Entity Framework Core  
-- Dapper  
-- SQL Server  
-- JWT Bearer Authentication  
-- BCrypt (Hash seguro de contraseñas)  
-- Swagger / OpenAPI  
+# 🧱 Buenas Prácticas Aplicadas
 
 ---
 
-## 🔐 Seguridad
+## 🧩 Programación Orientada a Objetos (OOP)
 
-La autenticación se implementa mediante **JWT (JSON Web Tokens)**.
+El proyecto aplica correctamente los principios fundamentales de OOP:
 
-- Las contraseñas se almacenan usando **BCrypt**
-- Los endpoints protegidos requieren token Bearer
-- Se registra el `LastLogin` cada vez que el usuario inicia sesión correctamente
+- Encapsulamiento de entidades del dominio
+- Separación clara de responsabilidades entre clases
+- Uso de interfaces para desacoplar implementaciones
+- Uso de abstracciones entre capas
+- Control adecuado de modificadores de acceso
+
+Cada clase tiene un propósito claro y bien definido.
+
+---
+
+## 🧠 Domain-Driven Design (DDD - Enfoque Táctico)
+
+Se aplican conceptos fundamentales de DDD:
+
+- 📦 Entidades ubicadas en la capa `Domain`
+- 🧾 Reglas de negocio encapsuladas en el dominio
+- 🔐 El dominio no depende de infraestructura
+- 🔄 Separación clara entre lógica de negocio y acceso a datos
+- 🧩 Interfaces (puertos) definidas en Application e implementadas en Infrastructure
+
+Principio respetado:
+
+> El dominio no conoce detalles técnicos externos.
+
+---
+
+## 📐 Principios SOLID
+
+El proyecto cumple con los cinco principios SOLID:
+
+### S — Single Responsibility Principle
+Cada clase tiene una única responsabilidad clara  
+(Ej: AuthService, EmployeeService, Repositories)
+
+### O — Open/Closed Principle
+Las clases pueden extenderse mediante interfaces sin modificar su código base.
+
+### L — Liskov Substitution Principle
+Las implementaciones respetan los contratos definidos por las interfaces.
+
+### I — Interface Segregation Principle
+Las interfaces están diseñadas de forma específica y no contienen métodos innecesarios.
+
+### D — Dependency Inversion Principle
+Las capas superiores dependen de abstracciones, no de implementaciones concretas.
+
+Ejemplo:
+
+Application depende de `IEmployeeRepository`, no de `EmployeeRepository`.
+
+---
+
+## 🧼 Clean Code
+
+Se aplican prácticas de código limpio:
+
+- Nombres descriptivos y expresivos
+- Métodos pequeños y enfocados
+- Eliminación de lógica duplicada
+- Separación clara de lectura/escritura (CQRS básico)
+- Inyección de dependencias
+- Manejo claro y controlado de excepciones
+- Código organizado por responsabilidad
+
+El código prioriza:
+
+- Legibilidad
+- Mantenibilidad
+- Escalabilidad
+
+---
+
+# 🏛 Clean Architecture
+
+Se respeta la regla fundamental:
+
+> Las dependencias siempre apuntan hacia el dominio.
+
+Flujo de dependencias:
+
+Api → Application → Domain
+Infrastructure → Application
+
+- El dominio no depende de ninguna capa externa.
+- La infraestructura implementa contratos definidos en Application.
+- La API solo orquesta las solicitudes.
+
+---
+
+# 🛠 Tecnologías Utilizadas
+
+- .NET 8
+- ASP.NET Core Web API
+- Entity Framework Core
+- Dapper
+- SQL Server
+- JWT Bearer Authentication
+- BCrypt
+- Swagger / OpenAPI
+- xUnit
+- Moq
+- Docker
+
+---
+
+# 🔐 Seguridad
+
+- Autenticación implementada mediante JWT
+- Contraseñas almacenadas usando BCrypt
+- Endpoints protegidos mediante `Bearer Token`
+- Registro automático de `LastLogin`
 - Eliminación lógica mediante campo `IsDeleted`
+- Validaciones en capa de aplicación
 
 ---
 
-```markdown
-## 📡 Endpoints
+# 📡 Endpoints
 
-### 🔑 Autenticación
+## 🔑 Autenticación
 
 | Método | Endpoint | Descripción | Autenticación |
 |--------|----------|------------|---------------|
-| POST | `/api/auth/login` | Autenticación y generación de token JWT | ❌ No |
+| POST | `/api/auth/login` | Generación de token JWT | ❌ No |
 
 ---
 
-### 👤 Empleados
+## 👤 Empleados
 
 | Método | Endpoint | Descripción | Autenticación |
 |--------|----------|------------|---------------|
-| GET | `/api/employees` | Obtener todos los empleados | ✅ Sí |
-| GET | `/api/employees/{id}` | Obtener empleado por ID | ✅ Sí |
-| POST | `/api/employees` | Crear empleado | ✅ Sí |
-| PUT | `/api/employees/{id}` | Actualizar empleado | ✅ Sí |
-| PUT | `/api/employees/{id}/change-password` | Cambiar contraseña | ✅ Sí |
-| DELETE | `/api/employees/{id}` | Eliminación lógica (Soft Delete) | ✅ Sí |
-
----
-
-### 👤 Empleados
-
-| Método | Endpoint | Descripción |
-|--------|----------|------------|
 | GET | `/api/employees` | Obtener todos los empleados |
 | GET | `/api/employees/{id}` | Obtener empleado por ID |
 | POST | `/api/employees` | Crear empleado |
@@ -111,38 +195,59 @@ La autenticación se implementa mediante **JWT (JSON Web Tokens)**.
 
 ---
 
-## 🧪 Ejemplo de Login
+# 🧪 Pruebas Unitarias
 
-### Request
+El proyecto incluye pruebas unitarias implementadas en:
 
-```json
-POST /api/auth/login
-{
-  "username": "usuario",
-  "password": "password"
-}
-Response
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
-  "username": "usuario"
-}
+**Redarbor.Tests**
 
-Luego el token debe enviarse en los demás endpoints:
+### Tecnologías utilizadas:
 
-Authorization: Bearer {token}
+- xUnit
+- Moq
+
+### Cobertura enfocada en:
+
+- Servicios de autenticación
+- Casos de uso de empleados
+- Validaciones de negocio
+- Manejo de errores
+- 🐳 Docker
+
+### Ejecutar pruebas:
+
+Ejecutar en Bash:
+dotnet test 
+
+🐳 Docker
+
+La aplicación puede ejecutarse completamente mediante Docker.
+
+1️⃣ Construir imagen
+docker build -t redarbor-api .
+2️⃣ Ejecutar contenedor
+docker run -p 5000:8080 redarbor-api
+
+La API quedará disponible en:
+
+http://localhost:5000
+
+Swagger:
+
+http://localhost:5000/swagger
 💾 Persistencia
 
 Escritura → Entity Framework Core
 
 Lectura → Dapper
 
-Eliminación lógica → campo IsDeleted
+Eliminación lógica → Campo IsDeleted
 
 Auditoría → Triggers SQL
 
-Registro automático de LastLogin al autenticar correctamente
+Registro automático de LastLogin
 
-⚙ Configuración
+⚙ Configuración sin Docker
 1️⃣ Clonar repositorio
 git clone https://github.com/AndresCruzArd/Redarbor-API.git
 2️⃣ Configurar cadena de conexión
@@ -156,35 +261,32 @@ Editar appsettings.json:
 dotnet ef database update
 4️⃣ Ejecutar la API
 dotnet run
-5️⃣ Abrir Swagger
-https://localhost:{puerto}/swagger
-📊 Mejoras Futuras
 
-Tests unitarios con xUnit + Moq
+📊 Estado Actual del Proyecto
 
-Autorización por roles
-
-Refresh Tokens
-
-Dockerización
-
-Logging estructurado
-
-Validaciones con FluentValidation
+✔ Arquitectura limpia correctamente aplicada
+✔ Separación clara de capas
+✔ Principios SOLID implementados
+✔ Enfoque DDD táctico
+✔ Código limpio y mantenible
+✔ Persistencia híbrida EF + Dapper
+✔ Tests unitarios implementados
+✔ Docker funcional
+✔ Buen desacoplamiento
 
 👤 Autor
 
 Andrés Cruz
 Prueba técnica desarrollada para Redarbor.
 
-🧠 Notas Finales
+🧠 Nota Final
 
-Este proyecto fue desarrollado aplicando buenas prácticas modernas de desarrollo backend, priorizando:
+Este proyecto demuestra:
 
-Seguridad
+Diseño arquitectónico sólido
 
-Mantenibilidad
+Aplicación real de principios OOP, SOLID y DDD
 
-Escalabilidad
+Enfoque profesional en seguridad
 
-Claridad arquitectónica
+Código mantenible y escalable.
