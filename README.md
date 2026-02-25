@@ -212,12 +212,14 @@ El proyecto incluye pruebas unitarias implementadas en:
 - Casos de uso de empleados
 - Validaciones de negocio
 - Manejo de errores
-- 🐳 Docker
 
 ### Ejecutar pruebas:
 
 Ejecutar en Bash:
+
 dotnet test 
+
+---
 
 🐳 Docker
 
@@ -235,19 +237,21 @@ http://localhost:5000
 Swagger:
 
 http://localhost:5000/swagger
+
+---
+
 💾 Persistencia
 
-Escritura → Entity Framework Core
+- Escritura → Entity Framework Core
+- Lectura → Dapper
+- Eliminación lógica → Campo IsDeleted
+- Auditoría → Triggers SQL
+- Registro automático de LastLogin
 
-Lectura → Dapper
-
-Eliminación lógica → Campo IsDeleted
-
-Auditoría → Triggers SQL
-
-Registro automático de LastLogin
+---
 
 ⚙ Configuración sin Docker
+
 1️⃣ Clonar repositorio
 git clone https://github.com/AndresCruzArd/Redarbor-API.git
 2️⃣ Configurar cadena de conexión
@@ -257,10 +261,13 @@ Editar appsettings.json:
 "ConnectionStrings": {
   "DefaultConnection": "Server=.;Database=RedarborDb;Trusted_Connection=True;TrustServerCertificate=True;"
 }
+
 3️⃣ Ejecutar migraciones
 dotnet ef database update
 4️⃣ Ejecutar la API
 dotnet run
+
+---
 
 📊 Estado Actual del Proyecto
 
@@ -274,19 +281,22 @@ dotnet run
 ✔ Docker funcional
 ✔ Buen desacoplamiento
 
+---
+
 👤 Autor
 
 Andrés Cruz
 Prueba técnica desarrollada para Redarbor.
 
+---
+
 🧠 Nota Final
 
 Este proyecto demuestra:
 
-Diseño arquitectónico sólido
+- Diseño arquitectónico sólido
+- Aplicación real de principios OOP, SOLID y DDD
+- Enfoque profesional en seguridad
+- Código mantenible y escalable.
 
-Aplicación real de principios OOP, SOLID y DDD
 
-Enfoque profesional en seguridad
-
-Código mantenible y escalable.
